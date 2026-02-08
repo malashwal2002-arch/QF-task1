@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDEFEF !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #FDEFEF !important;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.home-button {
+    background-color: #034638 !important;
+    padding: 2px 11px;
+    border-radius: 25px;
+}
+
+.home-button a {
+    color: #ffffff !important;
+}
+
+.fa-calendar {
+    color: #034638;
+}
+
+.proflie-image img {
+    height: 45px;
+    border-radius: 50%;
+}
+
+.proflie-image {
+    border: 1px solid #034638;
+    border-radius: 50%;
+}
+
+
+.header-main {
+    background-color: #FBF6F2 !important;
+    border-radius: 13px;
+     box-shadow: 0 25px 43px #EDEBE9, 0 25px 17px #EDEBE9;
+}
+
+.fa-solid {
+    color: #034638;
+}
+
+.fa-circle-info {
+    color: #D6E1DF;
+}
+
+.item-opreation {
+    box-shadow: 0 19px 38px #EDEBE9, 0 15px 12px #EDEBE9;
+    border-radius: 12px;
+}
+
+
+/* --- New Dashboard Section Styles --- */
+
+.section-title {
+    color: #034638;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+}
+
+/* Sub-cards for Education Section */
+.sub-card {
+    border-radius: 12px;
+    height: 100%;
+}
+.bg-soft-green { background-color: #E9F5EC; }
+.bg-soft-grey { background-color: #EAEEF2; }
+.bg-soft-blue { background-color: #E7F6F9; }
+.bg-soft-purple { background-color: #EFEBF4; }
+
+/* Bar Chart Simulation */
+.bar-chart-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 50px;
+    padding-bottom: 5px;
+}
+.bar-col {
+    flex: 1;
+    background-color: #4CAF50;
+    border-radius: 2px;
+    height: 40%; /* Default height */
+    opacity: 0.8;
+}
+/* Randomize heights using nth-child for visual effect */
+.bar-col:nth-child(odd) { height: 60%; }
+.bar-col:nth-child(2n) { height: 30%; }
+.bar-col:nth-child(3n) { height: 80%; }
+.bar-col:nth-child(4n) { height: 45%; }
+.bar-col.target { 
+    background-color: #0dcaf0; /* Blue target bar */
+    height: 50% !important;
+}
+
+/* Graduates Outcome X-Chart */
+.x-chart-container {
+    position: relative;
+    width: 100%;
+}
+.x-line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    top: 50%;
+    left: 0;
+}
+.x-line-1 { transform: rotate(45deg); }
+.x-line-2 { transform: rotate(-45deg); }
+
+.center-bubble {
+    z-index: 2;
+    background-color: #034638;
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(3, 70, 56, 0.3);
+}
+
+.chart-label {
+    position: absolute;
+    bottom: 0;
+}
+.label-bottom-left { left: 10px; }
+.label-bottom-right { right: 10px; }
+
+/* Utility fixes */
+.yoy-text {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
